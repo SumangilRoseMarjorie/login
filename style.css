@@ -1,0 +1,58 @@
+body {
+	background: pink;
+	align-items:  center;
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+}
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+input {
+	display: block;
+	border: 2px solid black;
+	width: 100%;
+	padding: 10px;
+	margin:  10px;
+	border-radius:  5px;
+}
+label {
+	color: green;
+	font-size:  18px;
+	padding:  10px;
+}
+button {
+	float: right;
+	background: blue;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+p{
+	justify-content: center;
+}
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: purple;
+}
+.ca:hover {
+	text-decoration: underline;
+}
+.div1 {
+	float: right;
+	width: 500px;
+	border: 2px solid lightskyblue;
+	padding: 30px;
+	background: violet;
+	border border-radius: 15px;
+}
